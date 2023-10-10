@@ -1,5 +1,7 @@
 from django.shortcuts import render
 
 def bienvenidos(request):
-    context={}
+    context={
+        
+    }
     return render(request, 'index.html', context)
